@@ -61,4 +61,14 @@ rawnum = input("Try again\n")
     print("2 * ",rawnum,"=",2 * rawnum)
     flag = False
 
+<!-- def functions -->
+
+def thing(name):
+print("Hello world!",name,"Happy to see you!")
+
+def greet(name):
+return "Hello "+ name
+
+print(greet('Nazarii'))
+
 ``
