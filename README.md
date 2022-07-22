@@ -72,3 +72,5 @@ return "Hello "+ name
 print(greet('Nazarii'))
 
 ``
+
+## pyTutorial9 File handle
