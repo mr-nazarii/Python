@@ -82,3 +82,11 @@ Strings are immutable[0] = "H"
 Arrays are mutable = [1,2,3]
 
 mutable[0] = 45
+
+## Tupples are immutable lists
+
+# Shorter version
+
+d = {"a": 31, "b": 321, "c": 3, "d": 345, "e": 53, "f": 36}
+
+print(sorted([(v,k) for k,v in d.items()], ))
