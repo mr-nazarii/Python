@@ -74,3 +74,11 @@ print(greet('Nazarii'))
 ``
 
 ## pyTutorial9 File handle
+
+## pyTutorial9 File handle
+
+Strings are immutable[0] = "H"
+
+Arrays are mutable = [1,2,3]
+
+mutable[0] = 45
