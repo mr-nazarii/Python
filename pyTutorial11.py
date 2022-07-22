@@ -1,10 +1,17 @@
-words = 'His e-mail is q-lar@freecodecamp.org'
-pieces = words.split()
-print(pieces)
+def createAnObject():
+    newObject = {}
 
-parts = pieces[3].split('-')
-print(parts)
+    newObject["name"] = "Kita"
+    newObject["age"] = 20
+    newObject["monthlyBudget"] = 4000
+    newObject["monthlyCarExpenses"] = 100
 
-n = parts[1]
 
-print(n)
+
+
+    print(newObject)
+
+
+
+
+createAnObject()
