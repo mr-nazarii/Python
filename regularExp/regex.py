@@ -12,8 +12,9 @@ def findEmails(handle):
         #     line = line.replace('From: ','')
         #     d[line] = d.get(line, 1) + 1
 
-        emails = re.findall('From (\S+@\S+)',line)
+        emails = re.findall('\S+@\S+',line)
         for email in emails:
+            email = email.strip('<>;:()')
             d[email] = d.get(email, 1) + 1
 
     return d
