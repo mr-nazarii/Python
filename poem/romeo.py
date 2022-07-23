@@ -1,4 +1,4 @@
-handle = open('poem/nice.txt', 'r')
+handle = open('./texts/remeo&juliet.txt', 'r')
 
 d = {}
 

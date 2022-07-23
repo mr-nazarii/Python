@@ -1,8 +1,8 @@
 from pyTy9.other import getuniqeEmailsArray, printEmails
 
 
-filePath1 = './mbox-short.txt'
-filePath2 = './mbox.txt'
+filePath1 = './texts/mbox-short.txt'
+filePath2 = './texts/mbox.txt'
 
 
 def searchUniqueEmail(file):
